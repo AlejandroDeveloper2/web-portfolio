@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+/*Colors pattle*/
+:root{
+    --primary-color:#372A2A;
+    --secondary-color:#DA5E72;
+    --white:#fff;
+    --medium-gray:#D9B9B9;
+    --strong-gray:#3F3939;
+    --extra-strong-gray:#282424;
+    --blue:#4C9DD7;
+    --orange:#BC741F;
+    --red:#B45B2A;
+    --blue-2:#30A7EA;
+    --strong-gray-opacity:rgba(66, 68, 72, 0.4);
+    --extra-strong-gray-opacity-2:rgba(40, 36, 36, 0.8);
+    --white-opacity:rgba(255,255,255,0.5);
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Goldman', cursive;
+    font-size:16px;
+    color:var(--white);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width:10px;
+}
+body::-webkit-scrollbar-button:increment, body::-webkit-scrollbar-button {
+    display: none;
+} 
+
+body::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    border: 2px solid var(--white);
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: var(--extra-strong-gray-opacity-2);
+}
+
+/*Global effect*/
+@keyframes change-color-effect {
+    from {
+      box-shadow: 0px 0px 10px 5px var(--secondary-color);
+    }
+    to {
+      box-shadow: 0px 0px 10px 5px var(--blue);
+    }
+}

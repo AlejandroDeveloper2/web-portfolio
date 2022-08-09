@@ -1,0 +1,20 @@
+.carousel{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.carousel .styles-module_slider__o0fqa{
+    padding: 1em 1em;
+    gap:1em;
+}
+.styles-module_sliderBase__swkx1.carousel {
+   padding: 1em 0;
+}
+.styles-module_sliderBase__swkx1.carousel div[data-arrow*="right"] {
+    display:none;
+}
+.styles-module_sliderBase__swkx1.carousel div[data-arrow*="left"] {
+    display:none;
+ }

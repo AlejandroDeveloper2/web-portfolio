@@ -1,0 +1,29 @@
+{
+  "name": "web-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@trendyol-js/react-carousel": "^3.0.0",
+    "emailjs-com": "^3.2.0",
+    "firebase": "^9.9.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-intersection-observer": "^9.4.0",
+    "react-intl": "^6.0.5",
+    "react-router-dom": "^6.3.0",
+    "styled-components": "^5.3.5",
+    "typed.js": "^2.0.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "vite": "^2.9.0"
+  }
+}

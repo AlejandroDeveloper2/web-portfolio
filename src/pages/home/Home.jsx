@@ -72,9 +72,9 @@ const Home = () => {
     };
   }, [locale]);
 
-  // useEffect(() => {
-  //   insertProjectsData(data);
-  // }, []);
+  useEffect(() => {
+    insertProjectsData(data);
+  }, []);
 
   return (
     <>

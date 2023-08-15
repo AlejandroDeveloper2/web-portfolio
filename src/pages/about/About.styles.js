@@ -5,7 +5,7 @@ import { devices } from "../../helpers/breakpoints";
 export const MainProfileContainer = styled.div`
   display: grid;
   overflow: hidden;
-  grid-columns: repeat(1, max-content);
+  grid-template-columns: repeat(1, max-content);
   grid-template-rows: repeat(3, max-content);
   grid-template-areas: "Header" "skill-section" "studies-section";
   position: relative;
@@ -149,7 +149,7 @@ export const Title = styled.h2`
 export const Paragraph = styled.p`
   font-size: 1em;
   font-weight: normal;
-  text-align: justify;
+  text-align: left;
 
   /*Desktop*/
   @media ${devices.laptop} {

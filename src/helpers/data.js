@@ -161,7 +161,7 @@ export const data = [
       "Mobile application that works with water quality meter device, it shows to user of the most clearly way the measurement results.",
     gitUrl: "https://github.com/AlejandroDeveloper2/WaterQualityApp",
     id: "project-6",
-    isRecent: true,
+    isRecent: false,
     logoUrl:
       "https://res.cloudinary.com/dym53oxov/image/upload/v1671658259/EasyMath%20images/Portfolio/ProjectLogos/AppLogo_bx3yz3.png",
     name: "Water Quality App",
@@ -205,7 +205,7 @@ export const data = [
       "Aplicación movil para gestionar costos de producción en el proceso de cultivo de café.",
     descriptionEnglish:
       "Mobile application to manage coffee cultivation process' production expenses.",
-    gitUrl: "https://github.com/DiegoFelipe7/mi_cafetal",
+    gitUrl: "https://github.com/AlejandroDeveloper2/Mi_cafetal_app",
     id: "project-7",
     isRecent: true,
     logoUrl:
@@ -242,6 +242,57 @@ export const data = [
         iconUrl:
           "https://res.cloudinary.com/dym53oxov/image/upload/v1658444517/EasyMath%20images/Portfolio/Skills-technologies-images/express_xnuml7.png",
         name: "Express JS",
+      },
+    ],
+  },
+
+  {
+    background: "#121b21",
+    description: "Aplicación web de Bingo Electronico y apuestas en linea.",
+    descriptionEnglish:
+      "Web Application of Electronic Bingo Game and online bets.",
+    gitUrl: "https://github.com/AlejandroDeveloper2/betBillions",
+    id: "project-8",
+    isRecent: true,
+    logoUrl:
+      "https://res.cloudinary.com/dym53oxov/image/upload/v1692065313/EasyMath%20images/Portfolio/ProjectLogos/p525mgf1aehuvmpk0yhy.png",
+    name: "Bet Billions",
+    projectUrl: "https://bet-billions-pruebas.vercel.app/",
+    technologies: [
+      {
+        iconUrl:
+          "https://res.cloudinary.com/dym53oxov/image/upload/v1658439096/EasyMath%20images/Portfolio/Skills-technologies-images/Skill1_neczca.png",
+        name: "React",
+      },
+      {
+        iconUrl:
+          "https://res.cloudinary.com/dym53oxov/image/upload/v1671646522/EasyMath%20images/Portfolio/Skills-technologies-images/typescript_hhsyte.png",
+        name: "Typescript",
+      },
+      {
+        iconUrl:
+          "https://res.cloudinary.com/dym53oxov/image/upload/v1658692306/EasyMath%20images/Portfolio/Skills-technologies-images/styled-components_mhn8ph.png",
+        name: "Styled Components",
+      },
+      {
+        iconUrl:
+          "https://res.cloudinary.com/dym53oxov/image/upload/v1658444376/EasyMath%20images/Portfolio/Skills-technologies-images/nodeJS_uatv7a.png",
+        name: "Node js",
+      },
+      {
+        iconUrl:
+          "https://res.cloudinary.com/dym53oxov/image/upload/v1658442521/EasyMath%20images/Portfolio/Skills-technologies-images/Skill5_tnsabe.png",
+        name: "HTML5",
+      },
+      {
+        iconUrl:
+          "https://res.cloudinary.com/dym53oxov/image/upload/v1692064365/EasyMath%20images/Portfolio/Skills-technologies-images/iesy9pmuehiv7sktftgd.png",
+        name: "SWR",
+      },
+      {
+        iconUrl:
+          "https://res.cloudinary.com/dym53oxov/image/upload/v1659392458/EasyMath%20images/Portfolio/Skills-technologies-images/Vite_myfpbi.png",
+        name: "Vite",
       },
     ],
   },
